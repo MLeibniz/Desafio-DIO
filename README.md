@@ -1,3 +1,3 @@
 ### Desafio-DIO
-# LIVRO DE RECEITAS
-##### Olá, Seja bem vindo ao meu livro de receitas
+
+Projetos desenvolvidos durante o bootcamp da DIO serão adicionados aqui.
