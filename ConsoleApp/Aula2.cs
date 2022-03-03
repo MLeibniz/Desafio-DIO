@@ -19,20 +19,26 @@ public static class Aula2
         WriteLine("Digite o nome substituto");
         string novo = ReadLine();
 
-        SubstituirNome(nomes, atual, novo);
-
+        SubstituirNome(nomes, LocalizarIndiceNome(nomes, atual), novo);
+        
         WriteLine(string.Join(", ", nomes));
     }
 
-    static async void SubstituirNome(string[] nomes, string nomeAtual, string nomeNovo)
+    static int LocalizarIndiceNome(string[] nomes, string nomeAtual)
     {
         for(int i = 0; i < nomes.Length; i++)
         {
             if(nomes[i] == nomeAtual)
             {
-                nomes[i] = nomeNovo;
+                return i;
             }
         }
+        return -1;
+    }
+
+    static void SubstituirNome(string[] nomes, int index, string nomeNovo)
+    {
+        nomes[index] = nomeNovo;
     }
 
     private static void Adicionar20(ref int a)
