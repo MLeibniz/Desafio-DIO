@@ -4,7 +4,7 @@ public static class Aula1
 {
     public static void Demo1()
     {
-        WriteLine("DEMO 1");
+        WriteLine(" \n DEMO 1 \n ");
 
         int a = 2;
         a = Adicionar20(a);
@@ -14,7 +14,7 @@ public static class Aula1
 
     public static void Demo2()
     {
-        WriteLine("DEMO 2");
+        WriteLine(" \n DEMO 2 \n ");
 
         Pessoa p1 = new Pessoa();
         p1.Nome = "Marcos";
@@ -33,7 +33,7 @@ public static class Aula1
 
     public static void Demo3()
     {
-        WriteLine("DEMO 3");
+        WriteLine(" \n DEMO 3 \n ");
 
         string nome = "Nome antigo";
         TrocarNomeString(nome, "Nome novo");
@@ -43,7 +43,7 @@ public static class Aula1
 
     public static void Demo4()
     {
-        WriteLine("DEMO 4");
+        WriteLine(" \n DEMO 4 \n ");
 
         int[] numeros = new int[5];
 
@@ -58,6 +58,7 @@ public static class Aula1
 
     public static void Demo5a()
     {
+        WriteLine($" \n DEMO 5 \n ");
         int[] numeros = new int[]{19,28,37,46,55,64,73,82,91,0};
         
         WriteLine("Qual numero deve ser buscado na lista?");
