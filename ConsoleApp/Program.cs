@@ -1,5 +1,14 @@
-﻿int vezes = 5;
-for (int i = 0; i < vezes; i++)
+﻿Demo1();
+
+static void Demo1()
 {
-    Console.WriteLine($"Bem Vindo ao Curso de .Net!{i}");   
+    int a = 2;
+    a = Adicionar20(a);
+
+    Console.WriteLine($"O valor de a é {a}");
+}
+
+static int Adicionar20(int a)
+{
+    return (a + 20);
 }
