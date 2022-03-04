@@ -16,6 +16,6 @@ public static class Aula3
                 CEP = "07561-123987",
                 Cidade = "Sim"
             }
-        };
+        };      
     }
 }
